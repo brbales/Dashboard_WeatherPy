@@ -1,11 +1,15 @@
-.nav-heading {
-	font-color: blue;
+#nav-heading {
+	font-color: black;
 	font-size: 24pt;
 
 }
 
 .sec-heading {
-	font-color: blue;
+	font-color: black;
 	font-size: 20pt;
 
+}
+
+.body {
+	background-color: black;
 }
