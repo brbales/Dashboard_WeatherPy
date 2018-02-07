@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather by Latitude</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">Weather by Latitude</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="data.html">Data</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="viz_1.html">Latitude vs. Temperature</a></li>
+              <li><a href="viz_2.html">Latitude vs. Humidity</a></li>
+              <li><a href="viz_3.html">Latitude vs. Cloudiness</a></li>
+              <li><a href="viz_4.html">Latitude vs. Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="comparisons.html">Comparisons</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+  </nav>
+  <div class="container">
+    <div class="col-sm-8">
+      <h2>Latitude vs. Wind Speed</h2>
+      <br>
+      <img src="wind_lat.png" height="475" width="630">
+      <br>
+      <h4>
+      <p>Based on the wind speed vs. latitude plot, there appears to be no correlation between latitude and wind speed. With the exception of a handful of cities, wind speed across all sampled latitudes remained between 0-30 mph. This fact lends itself to support the classification of hurricanes and tornadoes as extreme weather cases, given that wind speeds during these events greatly exceed what appears to be the normal range across much of the planet.</p>
+      <br>
+      </h4>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-xs-3 col-md-4 sidebar">
+          <a href="viz_1.html" class="thumbnail">
+            <img src="temp_lat.png" alt="...">
+          </a>
+        </div>
+        <div class="col-xs-3 col-md-4">
+          <a href="viz_2.html" class="thumbnail">
+            <img src="humidity_lat.png" alt="...">
+          </a>
+        </div>
+        <div class="col-xs-3 col-md-4">
+          <a href="viz_3.html" class="thumbnail">
+            <img src="cloudy_lat.png" alt="...">
+          </a>
+        </div>
+        <div class="col-xs-3 col-md-4">
+          <a href="viz_4.html" class="thumbnail">
+            <img src="wind_lat.png" alt="...">
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
