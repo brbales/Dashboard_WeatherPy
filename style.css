@@ -1,15 +1,41 @@
 #nav-heading {
-	font-color: black;
+	color: navy;
 	font-size: 24pt;
-
+	font-family: "Georgia";
+	font-weight: bold;
 }
 
 .sec-heading {
-	font-color: black;
+	color: navy;
 	font-size: 20pt;
-
+	font-family: "Georgia";
 }
 
-.body {
-	background-color: black;
+h2 {
+	color: navy;
+	font-weight: bold;
+	font-family: "Georgia";
+	text-decoration: underline;
+}
+
+h4 {
+	color: navy;
+	font-family: "Georgia";
+}
+
+body {
+	background-color: lightblue;
+}
+
+.g-font {
+	font-family: "Georgia";
+}
+
+#navy {
+	color: navy;
+	font-size: 14pt;
+}
+
+#nav-back {
+	background-color: white;
 }
